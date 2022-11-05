@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-Language" content="fa" />
+    <title>صفحه نخست</title>
+    <link rel="stylesheet" href="Class.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+             
+            $("#click").click(function () {
+                alert("clicked")
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="contetn-header">
+            <img src="wallet.png" width="44px" height="44px" style="margin: 0px 15px;border-radius: 22px;">
+            <h3> فروشگاه دیلی مارکت </h3>
+        </div>
+        <div class="content-body">
+            <div class="sidbar">
+                <div id="sidbarImg">
+                    <img src="rank.png" width="44px" height="44px" style="border-radius: 22px;margin: 0px 5px;">
+                    <h5>منوی اصلی</h5>
+                </div>
+                <ul>
+                    <li><a href="Index.html" style="color: brown;"> خانه</a></li>
+                    <li><a href="AboutUs.html"> درباره ما </a></li>
+                    <li><a href="RelationToUs.html"> تماس با ما</a></li>
+                </ul>
+            </div>
+            <div class="content">
+                <div class="element">
+                    <div class="imgBox">
+                        <img src="2.jpeg" width=60%>
+                        <label class="lableTitr"> بیسکوییت مادر</label>
+                        <label>قیمت: 80000</label>
+                        <code>off 15%</code>
+                    </div>
+                    <div class="imgBox">
+                        <img src="1.jpg" width=60%>
+                        <label class="lableTitr"> خامه شکلاتی</label>
+                        <label>قیمت: 120000</label>
+                        <code>off 15%</code>
+                    </div>
+                    <div class="imgBox">
+                        <img src="3.jpg" width=60%>
+                        <label class="lableTitr"> خامه عسلی</label>
+                        <label>قیمت: 100000</label>
+                        <code>off 15%</code>
+                    </div>
+                </div>
+                <div class="element">
+                    <div>
+                        <p>
+                            متن صفحه اصلی
+                        </p>
+                        <p id="click">click</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="content-footer">
+            &copy; 2022
+        </div>
+    </div>
+</body>
+
+</html>
